@@ -27,9 +27,9 @@ echo -e "ID Chat Kamu: \e[1m\e[32m${ID_CHAT}\e[0m"
 echo -e "Wallet Address Kamu: \e[1m\e[32m${WALLET_ADDRESS}\e[0m"
 echo '================================================='
 sleep 1
-
+https://github.com/cayycay/testnet-mdlog/tree/main/bot
 clear
 cd $HOME
-wget -O mdbotedit.sh https://raw.githubusercontent.com/mdlog/testnet-mdlog/main/bot/mdbotedit.sh && chmod +x mdbotedit.sh && screen -xR -S mdbot ./mdbotedit.sh
-# wget -O mdbot.sh https://raw.githubusercontent.com/mdlog/testnet-mdlog/main/bot/mdbot.sh && chmod +x mdbot.sh && nohup ./mdbot.sh
+wget -O mdbotedit.sh https://raw.githubusercontent.com/cayycay/testnet-mdlog/main/bot/mdbotedit.sh && chmod +x mdbotedit.sh && screen -xR -S mdbot ./mdbotedit.sh
+# wget -O mdbot.sh https://raw.githubusercontent.com/cayycay/testnet-mdlog/main/bot/mdbot.sh && chmod +x mdbot.sh && nohup ./mdbot.sh
 
